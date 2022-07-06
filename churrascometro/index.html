@@ -11,15 +11,27 @@
 </head>
 
 <body>
-  <div class="container">
-    <h1>Churrascômetro</h1>
-    <input id="adultos" name="adultos" type="number" placeholder="Adultos" />
-    <input id="criancas" name="crinças" type="number" placeholder="Crinças" />
-    <input id="duracao" name="duracao" type="number" placeholder="Duração (horas)" />
-    <button onclick="calcular()">Calcular</button>
+  <div class="div-central">
+    <div class="area-img">
+      <h2 class="titulo-img">Sua maneira facil e rapida para fazer relação de gastos com o Churrasco! O Churrascômetro
+        </h1>
+        <img src="img.svg" alt="">
+    </div>
+    <div class="box-dados">
+      <h1>Churrascômetro</h1>
+      <h2 class="subtitulo">Aqui vc podera inserir as informações para a base de Calulo</h2>
+      <label for="">Quantidade de adultos</label>
+      <input id="adultos" name="adultos" type="number" placeholder="Adultos" />
+      <label for="">Quantidade de Criancas</label>
+      <input id="criancas" name="crinças" type="number" placeholder="Crinças" />
+      <label for="">Duração do Churrasco</label>
+      <input id="duracao" name="duracao" type="number" placeholder="Duração (horas)" />
+      <button onclick="calcular()">Calcular</button>
 
-    <div id="resultado"></div>
+      <div id="resultado"></div>
+    </div>
   </div>
+
 
 
   <script src="script.js"></script>
