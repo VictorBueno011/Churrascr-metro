@@ -86,3 +86,29 @@ button{
 button :hover{
   cursor:copy;
 }
+@media (max-width: 1400px){
+img{
+  width: 600px;
+  margin-top: 50px;
+}
+.titulo-img{
+  margin-top: 20px;
+ 
+}
+input{
+  height: 40px;
+}
+h1{
+  margin-top:0px;
+  margin-bottom: 3px;
+  font-size: 40px;
+ 
+}
+.subtitulo{
+  margin-bottom: 25px;
+}
+.box-dados{
+  height: 550px;
+  
+}
+}
